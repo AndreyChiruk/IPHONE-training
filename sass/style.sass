@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap')
+*
+	margin: 0
+	padding: 0
+	box-sizing: border-box
+	border: 0
+.title
+	text-align: center
+.input
+	padding: 10px 0
+	border-bottom: 1px solid #F5F5F5
+	position: relative
+	left: 50%
+	transform: translate(-50%, 0)
+	width: 400px
+	background: none
+	color: #FFFFFF
+.nav
+	height: auto
+	width: 100%
+	background: #0A0A0A
+	.nav__body
+		display: flex
+		align-items: center
+		justify-content: space-between
+		margin: 0 auto
+		width: calc(100% - 720px)
+		.nav__column:nth-child(2)
+			padding: 0
+		.nav__column
+			padding: 32px 0
+			.nav__list
+				display: flex
+				list-style-type: none
+				/* Меню */
+				font-family: 'Inter'
+				font-style: normal
+				font-weight: 400
+				font-size: 24px
+				line-height: 29px
+				/* identical to box height */
+				/* серый */
+				color: #717171
+				/* Inside auto layout */
+				flex: none
+				order: 0
+				flex-grow: 0
+				.nav__item:not(:last-child)
+					margin-right: 30px
+
+			.nav__logo
+				position: absolute
+				top: 28px
+				left: 50%
+				transform: translate(-50%, 0)
+				width: 39.06px
+				height: 36.41px
+			.nav__number
+				/* Меню */
+				font-family: 'Inter'
+				font-style: normal
+				font-weight: 400
+				font-size: 24px
+				line-height: 29px
+				/* identical to box height */
+				/* серый */
+				color: #717171
+.about
+	display: flex
+	flex-direction: column
+	align-items: center
+	height: auto
+	width: 100%
+	background: #F5F5F7
+	.about__title
+		padding: 71px 0px 40px 0px
+		/* Заголовок H0 */
+		font-family: 'Inter'
+		font-style: normal
+		font-weight: 700
+		font-size: 64px
+		line-height: 77px
+		/* PURPLE */
+		color: #490E84
+	.about__image
+		
+	.about__btn
+		margin-top: 47px
+		margin-bottom: 47px
+		/* Кнопка 1 */
+		font-family: 'Inter'
+		font-style: normal
+		font-weight: 700
+		font-size: 24px
+		line-height: 29px
+
+		/* identical to box height */
+
+		/* БЕЛЫЙ */
+		color: #FFFFFF
+		/* PURPLE */
+		background: #490E84
+		border-radius: 30px
+		padding: 22px 118px
+.content
+	margin: 0 auto
+	height: auto
+	width: calc(100% - 720px)
+	.content__title
+		padding-top: 87px
+		padding-bottom: 50px
+		/* Заголовок H1 */
+		font-family: 'Inter'
+		font-style: normal
+		font-weight: 700
+		font-size: 32px
+		line-height: 39px
+		/* identical to box height */
+		/* серый */
+		color: #717171
+	.content__block
+		display: flex
+
+		.content__container
+			max-width: 559.07px
+			.content__text:not(:last-child)
+				margin-bottom: 30px
+			.content__text
+				/* Текст 14 */
+				font-family: 'Inter'
+				font-style: normal
+				font-weight: 400
+				font-size: 14px
+				line-height: 130%
+				/* or 18px */
+				/* ЧЕРНЫЙ */
+				color: #0A0A0A
+			.content__text:last-child
+				/* текст 20 */
+				font-family: 'Inter'
+				font-style: normal
+				font-weight: 700
+				font-size: 20px
+				line-height: 130%
+				/* or 26px */
+				/* ЧЕРНЫЙ */
+				color: #0A0A0A
+		.content__image
+			margin-left: 191px
+.option
+	margin: 0 auto
+	margin-bottom: 150px
+	height: auto
+	width: calc(100% - 720px)
+	.option__title
+		margin-top: 150px
+		margin-bottom: 50px
+		/* Заголовок H1 */
+		font-family: 'Inter'
+		font-style: normal
+		font-weight: 700
+		font-size: 32px
+		line-height: 39px
+		/* identical to box height */
+		/* серый */
+		color: #717171
+	.option__row
+		display: flex
+		flex-direction: row
+		justify-content: space-between
+		.option__column
+			.option__image
+				.option__icon
+			.option__text
+				text-align: center
+				/* текст 20 */
+				font-family: 'Inter'
+				font-style: normal
+				font-weight: 700
+				font-size: 20px
+				line-height: 130%
+				/* identical to box height, or 26px */
+				/* ЧЕРНЫЙ */
+				color: #0A0A0A
+			.option__subtext
+				margin-top: 10px
+				text-align: center
+				/* Текст 14 */
+				font-family: 'Inter'
+				font-style: normal
+				font-weight: 400
+				font-size: 14px
+				line-height: 130%
+				/* or 18px */
+				/* ЧЕРНЫЙ */
+				color: #0A0A0A
+.form
+	display: flex
+	flex-direction: row
+	margin: 0 auto
+	height: auto
+	width: calc(100% - 720px)
+	.form__block
+		width: 100%
+		/* deep purple */
+		background: #574B63
+		.form__title
+			margin-top: 137px
+			/* Заголовок H1 */
+			font-family: 'Inter'
+			font-style: normal
+			font-weight: 700
+			font-size: 32px
+			line-height: 39px
+			/* identical to box height */
+			/* БЕЛЫЙ */
+			color: #FFFFFF
+		.form__name
+			display: block
+			margin-top: 72px
+			font-family: 'Inter'
+			font-style: normal
+			font-weight: 400
+			font-size: 14px
+			line-height: 130%
+			/* or 18px */
+			/* БЕЛЫЙ */
+			// color: #FFFFFF
+			opacity: 0.5
+		.form__numder
+			margin-top: 30px
+			display: block
+			font-family: 'Inter'
+			font-style: normal
+			font-weight: 400
+			font-size: 14px
+			line-height: 130%
+			/* or 18px */
+			/* БЕЛЫЙ */
+			// color: #FFFFFF
+			opacity: 0.5
+		.form__text
+			margin-top: 30px
+			text-align: center
+			font-family: 'Inter'
+			font-style: normal
+			font-weight: 400
+			font-size: 14px
+			line-height: 130%
+			/* or 18px */
+			/* БЕЛЫЙ */
+			color: #FFFFFF
+			opacity: 0.5
+		.form__btn
+			position: relative
+			left: 50%
+			transform: translate(-50%, 0)
+			margin-top: 30px
+			padding: 16px 81px
+			border-radius: 30px
+			/* Кнопка 2 */
+			font-family: 'Inter'
+			font-style: normal
+			font-weight: 700
+			font-size: 14px
+			line-height: 130%
+			/* or 18px */
+			/* PURPLE */
+			color: #490E84
+	.form__image
+		width: 600px
+		height: 600px
+.footer
+	height: auto
+	width: 100%
+	background: #0A0A0A
+	.footer__block
+		display: flex
+		padding: 66px 0
+		justify-content: space-between
+		margin: 0 auto
+		height: auto
+		width: calc(100% - 720px)
+		.footer__text
+			/* Текст 14 */
+			font-family: 'Inter'
+			font-style: normal
+			font-weight: 400
+			font-size: 14px
+			line-height: 130%
+			/* or 18px */
+			/* серый */
+			color: #717171
+		.footer__logo
+			position: absolute
+			left: 50%
+			transform: translate(-50%, 0)
+			.footer__image
+		.footer__number
+			/* Меню */
+			font-family: 'Inter'
+			font-style: normal
+			font-weight: 400
+			font-size: 24px
+			line-height: 29px
+			/* identical to box height */
+			/* серый */
+			color: #717171
